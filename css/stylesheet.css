@@ -1,0 +1,220 @@
+/* Main page background designs*/
+body {
+  background: url("../images/bg-desktop.png") no-repeat fixed bottom;
+  background-color: hsl(229, 57%, 11%);
+  background-size: 100%;
+}
+
+.layout-row-styling {
+  width: 85%;
+  margin: 20% auto;
+}
+
+/* Left card and its element design */
+.card-left {
+  background-color: hsl(228, 56%, 26%);
+  color: white;
+  border-radius: 3px 50px 3px 3px;
+  height: 60%;
+  padding-right: 10% !important;
+  margin-top: -2%;
+}
+
+span {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 200%;
+}
+
+.icon-bg1 {
+  background-color: hsl(229, 57%, 11%);
+  width: 20%;
+  padding-top: 20%;
+}
+
+.icon-bg2 {
+  background-color: hsl(229, 57%, 11%);
+  width: 24%;
+  margin: 10% 5%;
+}
+
+.icon-bg3 {
+  background-color: hsl(229, 57%, 11%);
+  width: 27%;
+}
+
+/* Right card and its elements */
+.card-right {
+  background-color: hsl(228, 56%, 26%);
+  color: white;
+  margin: 2.5% 0 0 3%;
+  height: 20%;
+  position: relative;
+}
+
+.progressbar-text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 10px;
+  margin: 2% auto;
+  padding-right: 35%;
+}
+
+.data-progress {
+  font-weight: bold;
+}
+
+.progress {
+  height: 14px;
+  background-color: hsl(229, 57%, 11%);
+  width: 95%;
+}
+
+.progressbar-color {
+  background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  height: 10;
+  width: 75%;
+  margin: 0.25%;
+  float: none;
+}
+
+.indicator {
+  margin-left: 96%;
+}
+
+.data-min {
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 60%;
+}
+
+.data-max {
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 60%;
+  margin-left: 80%;
+}
+
+/* chat box notification for data  */
+.rectangle {
+  height: 27%;
+  width: 23%;
+  background-color: #fff;
+  margin-left: 70%;
+  position: relative;
+}
+
+.triangle-down {
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 15px solid #fff;
+}
+
+.data-unit {
+  color: hsl(229, 7%, 55%);
+  font-size: 10px;
+}
+
+.data-number {
+  color: black;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.balance-data {
+  position: absolute;
+  z-index: 1;
+  right: 19.5%;
+  top: 30%;
+  width: 50%;
+  height: 35%;
+}
+
+.data-balance-text {
+  position: absolute;
+  top: 2%;
+}
+
+/* Mobile design  */
+@media (max-width:375px) {
+  body {
+    background: url("../images/bg-mobile.png");
+  }
+
+  .card-left {
+    margin-top: 10%;
+    width: 110%;
+  }
+
+  .icon-bg1 {
+    width: 15%;
+  }
+
+  .icon-bg2 {
+    width: 18%;
+  }
+
+  .icon-bg3 {
+    width: 20%;
+  }
+
+  .card-right {
+    margin-top: 5%;
+    margin-left: auto;
+    padding: 30px !important;
+  }
+
+  .triangle-down {
+    visibility: hidden;
+  }
+
+  .rectangle {
+    width: 85%;
+    margin-left: -8%;
+    border-radius: 3px !important;
+    height: 35%;
+    margin-top: 10%;
+  }
+
+  .data-number {
+    font-size: 40px;
+  }
+
+  .progressbar-text {
+    font-size: 12px;
+    padding: 0 0 2% 0;
+    color: hsl(243, 100%, 93%);
+  }
+
+  .balance-data {
+    top: 65%;
+  }
+
+  .data-max {
+    margin-left: 70%;
+  }
+
+  .data-balance-text {
+    margin-left: 10%;
+  }
+
+  .progress-bar {
+    width: 75%;
+    margin: 1%;
+  }
+
+  .indicator {
+    margin-left: 92%;
+  }
+
+  .progress {
+    width: 110%;
+    margin-left: -5%;
+  }
+}
